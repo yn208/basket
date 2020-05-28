@@ -1,0 +1,31 @@
+INSERT INTO `category` (`category_id`, `name`) VALUES (1, 'Sweets');
+INSERT INTO `category` (`category_id`, `name`) VALUES (2, 'Snacks');
+INSERT INTO `category` (`category_id`, `name`) VALUES (3, 'Fruits');
+INSERT INTO `category` (`category_id`, `name`) VALUES (4, 'Vegetables');
+
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (1, '100gms of laddu', 'Laddu', 1, 5, 1);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (2, '100gms and rich in protein', 'Moong Dal', 25, 4, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (3, '100gms and tasty', 'Red Lays', 30, 3, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (4, '100gms and tasty', 'Green Lays', 30, 5, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (5, '50gms', 'Lemon Bhel', 10, 5, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (6, '50gms', 'Bhel', 8, 5, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (7, '150gms', 'Soya Sticks', 35, 4, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (8, '100gms', 'Tasty Nuts', 40, 5, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (9, '150gms', 'Salty Nuts', 46, 5, 2);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (10, '100gms', 'Chikki', 30, 5, 1);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (11, '100gms', 'Peda', 30, 3, 1);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (12, '100gms', 'Rasgulla', 10, 5, 1);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (13, '100gms', 'Dodha barfi', 10, 5, 1);
+
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (14, 'Net: 450g-550g', 'Green Capsicum', 60, 3, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (15, 'Net: 450g-550g', 'Red Capsicum', 100, 5, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (16, 'Net: 450g-550g', 'Yellow Capsicum', 100, 4, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (17, 'Net: 150g-175g', 'Cherry Tomato', 75, 5, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (18, 'Heirloom - Net: 450g-550g', 'Grande Tomato', 30, 5, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (19, 'Net: 450g-550g', 'Colors of Capsicum', 120, 5, 4);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (20, '250g', 'Raw Mango', 25, 5, 3);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (21, '500g', 'Mango Totapuri', 50, 5, 3);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (22, '250g', 'Mango Lalbag', 35, 3, 3);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (23, '500g', 'Dragon Fruit', 150, 5, 3);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (24, '250g', 'Banana Elaichi', 32, 5, 3);
+INSERT INTO `items` (`item_id`, `description`, `name`, `price`, `rating`, `category_id`) VALUES (25, '250g', 'Banana Golden', 15, 2, 3);
