@@ -22,7 +22,7 @@ public class ItemEntity implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	//@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="item_id")
 	private Long itemId;
 	private String name;
@@ -78,8 +78,8 @@ public class ItemEntity implements Serializable{
 		itemsDto.setDesc(this.getDesc());
 		itemsDto.setPrice(this.getPrice());
 		itemsDto.setRating(this.getRating());
-		if(this.getCategory() != null)
-			itemsDto.setCategory(this.getCategory().toDto());
+//		if(this.getCategory() != null)
+//			itemsDto.setCategory(this.getCategory().toDto());
 		return itemsDto;
 	}
 }

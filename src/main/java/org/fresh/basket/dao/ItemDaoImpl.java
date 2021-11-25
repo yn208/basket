@@ -3,6 +3,7 @@ package org.fresh.basket.dao;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -41,6 +42,9 @@ public class ItemDaoImpl implements ItemDao{
 		}
 		if(StringUtils.hasText(searchDto.getCategory())) {
 			predList.add(cb.equal(cb.lower(join.get("name")), searchDto.getCategory().toLowerCase()));
+		}
+		if(Objects.nonNull(searchDto.getItemId())) {
+			predList.add(cb.equal(root.get("itemId"), searchDto.getItemId()));
 		}
 		Predicate[] predArray = new Predicate[predList.size()];
 		predList.toArray(predArray);

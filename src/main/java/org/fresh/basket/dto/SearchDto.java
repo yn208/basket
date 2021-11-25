@@ -8,11 +8,18 @@ public class SearchDto implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
+	private Long itemId;
 	private String name;
 	private Integer rating;
 	private String category;
 	private String order;
 	
+	public Long getItemId() {
+		return itemId;
+	}
+	public void setItemId(Long itemId) {
+		this.itemId = itemId;
+	}
 	public String getName() {
 		return name;
 	}
